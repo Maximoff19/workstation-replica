@@ -72,6 +72,16 @@ Set it through the destination operating system's wallpaper settings. The v1.0.0
 configuration ZIP is unchanged and does not install or change the wallpaper.
 The artwork belongs to its respective rights holders; no ownership is claimed.
 
+## Terminal prompt symbol
+
+The prompt uses the Nerd Font symbol **`󰭟` (U+F0B5F)** through Starship, rather
+than an image file. The exact [Starship configuration](terminal/starship.toml)
+and [symbol text](assets/prompt-symbol.txt) are included in the repository.
+See [terminal setup](terminal/README.md) for the download and Fish initialization
+instructions. Use **IosevkaTerm NF** in Ghostty to match the source font.
+
+These files are separate additions; the v1.0.0 configuration ZIP is unchanged.
+
 ## What is intentionally not copied
 
 - Authentication stores, OAuth sessions, chat history, memory databases, mobile
