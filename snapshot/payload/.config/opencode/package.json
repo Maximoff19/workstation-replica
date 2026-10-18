@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@opencode-ai/plugin": "1.16.2",
+    "headroom-opencode": "0.37.0",
+    "opencode-sdd-engram-manage": "^1.6.6",
+    "unique-names-generator": "^4.7.1"
+  }
+}

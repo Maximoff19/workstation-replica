@@ -1,0 +1,18 @@
+{
+  "sidebar": "auto",
+  "thinking_visibility": true,
+  "timestamps": "hide",
+  "tool_details_visibility": true,
+  "assistant_metadata_visibility": true,
+  "scrollbar_visible": false,
+  "diff_wrap_mode": "word",
+  "animations_enabled": true,
+  "generic_tool_output_visibility": false,
+  "thinking_mode": "show",
+  "sdd-active-profile-name": "gentle-sdd",
+  "subagents.sidebar.expanded": true,
+  "file_context_enabled": false,
+  "theme": "gentleman",
+  "sdd-badge-display-mode": "profile",
+  "sdd-show-model-badge": false
+}
