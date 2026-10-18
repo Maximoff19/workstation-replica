@@ -55,6 +55,23 @@ The complete reviewed payload is browsable under `snapshot/payload/`; its
 manifest records file hashes, source executable versions, and intentional
 omissions. The release ZIP preserves that payload's original layout.
 
+## Desktop wallpaper
+
+![Desktop wallpaper](assets/wallpaper.jpg)
+
+The 3840 × 2160 image used as the wallpaper on both source displays is available
+as [assets/wallpaper.jpg](assets/wallpaper.jpg). Download it separately:
+
+```bash
+curl --fail --location --proto '=https' --tlsv1.2 \
+  https://raw.githubusercontent.com/Maximoff19/workstation-replica/main/assets/wallpaper.jpg \
+  --output wallpaper.jpg
+```
+
+Set it through the destination operating system's wallpaper settings. The v1.0.0
+configuration ZIP is unchanged and does not install or change the wallpaper.
+The artwork belongs to its respective rights holders; no ownership is claimed.
+
 ## What is intentionally not copied
 
 - Authentication stores, OAuth sessions, chat history, memory databases, mobile
