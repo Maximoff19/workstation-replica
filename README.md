@@ -72,6 +72,29 @@ Set it through the destination operating system's wallpaper settings. The v1.0.0
 configuration ZIP is unchanged and does not install or change the wallpaper.
 The artwork belongs to its respective rights holders; no ownership is claimed.
 
+## Additional wallpaper: Chainsaw Man
+
+![Chainsaw Man wallpaper](assets/wallpaper-chainsaw-man.png)
+
+This additional **3840 × 2160 PNG** matches the dark image supplied for the
+repository. It is available separately and does not replace the original
+wallpaper asset or change the currently active desktop wallpaper.
+
+Download it on the other computer:
+
+```bash
+curl --fail --location --proto '=https' --tlsv1.2 \
+  https://raw.githubusercontent.com/Maximoff19/workstation-replica/main/assets/wallpaper-chainsaw-man.png \
+  --output wallpaper-chainsaw-man.png
+```
+
+Then select the downloaded image in the operating system's wallpaper settings.
+On macOS, open **System Settings → Wallpaper** and add the downloaded image.
+The compressed image data and color information are preserved; textual, EXIF,
+and timestamp metadata are excluded from the publication copy when present.
+The artwork belongs to its respective rights holders. The v1.0.0 configuration
+ZIP is unchanged; this image is a separate download.
+
 ## Terminal prompt symbol
 
 The prompt uses the Nerd Font symbol **`󰭟` (U+F0B5F)** through Starship, rather
